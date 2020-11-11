@@ -1,0 +1,108 @@
+
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font:16px/28px arial, sans-serif;
+
+}
+.container {
+	padding-top: 10%;
+	padding-left: 80px;
+	padding-right: 20%;
+	background-image: url(img/background.png);
+}
+
+.header {
+
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    top: 0;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px 5%;
+    height: 35px;
+	background-color: #8ef7f7;
+	filter: drop-shadow(0 0 3px #414144);
+	background-size: auto;
+}
+.container .gambar  {
+	margin-top: 1%;
+	margin-left: 5%;
+}
+
+
+.artikel2, .artikel3  {
+	margin-top: 10%;
+}
+
+.ContactInfo{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	background-image: url(img/contact.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;	
+}
+
+.Contact{
+	padding-left: 50px;
+	padding-top: 35px;
+	padding-bottom: 30px;
+}
+h3{
+	padding-left: 50px;
+}
+
+.box{
+	position: relative;
+	padding:  0;
+	display: flex;
+}
+.icon{
+	min-width: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	font-size: 22px;
+}
+.text{
+	margin:-10px;
+}
+
+.footer {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 50px;
+	background-color: #04102E;
+	background-size: auto;
+}
+
+.footer .Privacy {
+	color: white;
+	font-size: 11px;
+}
+
+@media (max-width: 860px ){
+	.container {
+		padding-top: 15%;
+}
+@media (max-width: 660px ){
+	body{
+
+		font-family:9px/25px arial, sans-serif;
+	}
+
+	.container {
+		padding-top: 15%;
+		padding-left: 40px;
+	}
+
+	iframe{
+		width: 250px;
+		height: 120px;
+	}
+
+}
