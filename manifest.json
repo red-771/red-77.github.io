@@ -1,0 +1,15 @@
+{
+    "name": "homicare",
+    "short_name": "homicare",
+    "lang": "en-US",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "theme_color": "#1a99c7",
+    "icons": [
+      {
+        "src": "./img/sofa.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      }
+    ]
+  }
